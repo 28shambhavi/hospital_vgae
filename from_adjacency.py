@@ -1,10 +1,10 @@
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
-from heap import build_heap, get_degrees, get_heap
+
 adjacency_matrix = np.array([[0,1,0,0,1,0],
                             [0,0,1,0,0,1],
-                            [0,0,1,0,0,1],
+                            [0,0,0,0,0,1],
                             [0,1,0,0,0,1],
                             [1,0,0,0,0,0],
                             [0,1,1,1,0,0]])
